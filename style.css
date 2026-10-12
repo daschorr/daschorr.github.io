@@ -1,0 +1,53 @@
+/*  light-green: #C7EFD0
+	dark-green: #242F27 
+	med-green: #58625A*/
+
+
+.container {
+	position: relative;
+	width: 60%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.header-box {
+	aspect-ratio: 7 / 4;
+}
+
+.header-text {
+	position: absolute;
+	left: 38%;
+	z-index: 100;
+	width: 60%;
+	height: 100%;
+	font-size: 24pt;
+	line-height: 0.5;
+}
+
+.top {
+	position: relative;
+	margin: 40% 0 0 0;
+}
+
+img {
+	width: 100%;
+	float: left;
+}
+
+h1 {
+	padding: 20pt 0 0 0;
+	font-family: "Georgia";
+}
+
+p {
+	font-family: "Verdana";
+}
+
+li {
+	font-family: "Verdana";
+}
+
+a {
+  color: #6068Af;
+  font-weight: bold;
+}
