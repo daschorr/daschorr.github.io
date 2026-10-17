@@ -10,11 +10,13 @@
 	margin: 0 auto;
 }
 
-.header-box {
+/* Index Header */
+
+.index-header-box {
 	aspect-ratio: 7 / 4;
 }
 
-.header-text {
+.index-header-text {
 	position: absolute;
 	left: 38%;
 	z-index: 100;
@@ -24,15 +26,42 @@
 	line-height: 0.5;
 }
 
-.top {
+.index-header-top {
 	position: relative;
 	margin: 40% 0 0 0;
 	font-weight: bold;
 }
 
-img {
+.index-header-image {
 	width: 100%;
 	float: left;
+}
+
+
+/* Subpage Header */
+.subpage-header-box {
+	aspect-ratio: 7 / 1.75;
+	border-color: red;
+}
+
+.subpage-header-image {
+	width: 35.55%;
+	float: left;
+}
+
+.subpage-header-text {
+	position: absolute;
+	left: 38%;
+	z-index: 100;
+	width: 60%;
+	font-size: 24pt;
+	line-height: 0.5;
+}
+
+.subpage-header-top {
+	position: relative;
+	margin: 10% 0 0 0;
+	font-weight: bold;
 }
 
 h1 {
@@ -51,4 +80,22 @@ li {
 a {
   color: #6068Af;
   font-weight: bold;
+}
+
+.back-button {
+	text-align: right;
+	line-height: 4;
+}
+
+/* Poetry */
+
+.poem-text {
+	white-space: pre;
+	font-family: "Georgia";
+}
+
+.after-attribution {
+	font-style: italic;
+	font-size: 90%;
+	font-family: "Georgia";
 }
